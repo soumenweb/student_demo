@@ -154,4 +154,5 @@ if (menu =="Fees view"):
          char1 = pd.DataFrame(show_chart,columns=["amount","month"])
          st.dataframe(char1)
          st.bar_chart(char1, x="month", y="amount")
+         st.header("hello")
          
