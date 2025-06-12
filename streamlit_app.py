@@ -23,7 +23,7 @@ corsor =conn.cursor()
 
 menu = st.sidebar.selectbox("Select your work", options=["Register data","view data","fees form", "Fees view", "data report"])
 if(menu =="Register data"):
- st.header("STUDENT :red[REGISTRATION FORM FILLUP]")
+ st.header("STUDENT REGISTRATION FORM FILLUP")
  def ad_form():
     with st.form(key="newstu"):
         col1,col2,col3 = st.columns(3)
