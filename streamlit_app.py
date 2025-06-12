@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import sqlite3
 import numpy as np
-st.set_page_config(page_title="student",page_icon="🎓",layout="wide",initial_sidebar_state="expanded")
+st.set_page_config(page_title="studentfunda",page_icon="🎓",layout="wide",initial_sidebar_state="expanded")
 #sql connection 
 conn =sqlite3.Connection("database.db")
 corsor =conn.cursor()
